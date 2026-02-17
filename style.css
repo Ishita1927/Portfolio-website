@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient;
+    color: light blue;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Center header */
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 40px;
+    color: dark blue-gray;
+}
+
+/* Subtitle */
+h3 {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Section titles */
+h2 {
+    margin-bottom: 15px;
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1d6fa5;
+}
+
